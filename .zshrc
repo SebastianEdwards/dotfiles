@@ -35,7 +35,7 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/local/bin:/bin:/usr/sbin:/sbin:/usr/bin:/usr/X11/bin
+export PATH=/usr/local/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/bin:/usr/X11/bin
 
 [[ -s "/Users/sebastianedwards/.rvm/scripts/rvm" ]] && source "/Users/sebastianedwards/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 

@@ -33,6 +33,15 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 Bundle 'tpope/vim-rails.git'
 Bundle 'kchmck/vim-coffee-script'
+Bundle 'scrooloose/syntastic'
+Bundle 'scrooloose/nerdtree'
+Bundle 'wincent/Command-T'
+Bundle 'rickharris/vim-monokai'
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'bronson/vim-trailing-whitespace'
+
+colorscheme monokai
+map <leader>n :NERDTree<CR>
 
 filetype plugin indent on     " required! 
 
